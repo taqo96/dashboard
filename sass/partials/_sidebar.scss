@@ -1,0 +1,95 @@
+//doc for sidebar
+
+#sidebar {
+	width: 287px;
+	height: 1000px;
+	background-color: $sidebar-color;
+	position: fixed;
+	
+	#title {
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 50px;
+	color: whitesmoke;
+	position: relative;
+	bottom: 10px;
+
+
+
+	}
+
+
+	#profile {
+		position: fixed;
+		margin-left: 40px;
+		top: 100px;
+		
+		h1 {
+			font-family: 'Open Sans', sans-serif;
+			position: fixed;
+			top: 330px;
+			margin-left: 40px;
+			font-size: 20px;
+			color: whitesmoke;
+		}
+
+		edit {
+		position: relative;
+		right: 50px;
+		background: whitesmoke;
+		}
+	}
+	
+	#mini-menu {
+		position: fixed;
+		margin-bottom: 60px;
+		text-decoration: none;
+		display: block;
+		font-family: 'Open Sans', sans-serif;
+	
+		li {
+			list-style-type: none;
+			padding-bottom: 10px;
+			position: relative;
+			bottom: 40px;
+			
+			
+
+		
+		}
+		
+		a{
+			text-decoration: none;
+			color: whitesmoke;
+			position: relative;
+			top: 350px;
+			left: 80px;
+			
+			
+		}
+		
+		a:hover {
+			color: pink;
+		}
+
+		#swapBtn {
+		position: relative;
+		right: 5px;
+		background: black;
+		color: whitesmoke;
+		border-style: none;
+		width: 100px;
+		height: 25px;
+		}
+
+		#logout {
+		background: black;
+		color: whitesmoke;
+		border-style: none;
+		width: 100px;
+		height: 20px;
+		position: relative;
+		top: 30px;
+		right: 110px;
+		}
+	}
+}

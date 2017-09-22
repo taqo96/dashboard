@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dashboard-project</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" id="stylesheet" type="text/css" href="css/style.css">
+
+
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+	
+	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+	
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.0/vue.min.js"></script>
+	
+
+</head>
+<body>
+
+
+<div id="navbar">
+	
+	<nav v-bind:class="active" v-on:click.prevent>
+
+		
+
+		<a href="dashboard.html" class="dashboard" v-on:click="makeActive('dashboard')">DASHBOARD</a>
+		<a href="#" class="myposts" v-on:click="makeActive('myposts')">MY POSTS</a>
+			
+	</nav>
+
+</div>
+<div id="sidebar" class="sidebar">
+	<sidebar></sidebar>
+</div>
+
+<div id="stats" class="stats">
+	
+	<h1>STATISTICS</h1>
+	<canvas id="myChart" width="400" height="400"></canvas>
+		   
+</div>
+
+
+
+
+
+
+
+<script src="js/vue.js"></script>
+<script src="js/login.js"></script>
+<script src="js/dashboard.js"></script>
+<script src="js/sidebar.js"></script>
+<script src="js/posts.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.0/Chart.min.js"></script>
+<script src="js/chart.js"></script>
+<script src="js/swap.js"></script>
+
+
+
+
+
+	
+</body>
+</html>

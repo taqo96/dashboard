@@ -1,0 +1,64 @@
+//doc for login styles
+
+
+
+
+#loginpage {
+	
+	position: relative;
+	top: 150px;
+	width: 300px;
+	height: 400px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 100px;
+	background-color: #af7357;
+
+		h1 {
+		position: relative;
+		bottom: 90px;
+		font-family: $hfont;
+		color: whitesmoke;
+		}
+
+		
+
+		#user-log {
+		position: relative;
+		bottom: 80px;
+
+
+		}
+		#usericon {
+		font-size: 100px;
+		color: whitesmoke;
+		}
+
+		label {
+		font-size: 20px;
+		font-family: $hfont;
+		color: whitesmoke;
+
+		}
+
+		input {
+		background: $primaryc;
+		border-style: none;
+		height: 20px;
+		width: 200px;
+		margin-top: 10px;
+		color: black;
+
+		}
+
+		input#btn {
+		background: black;
+		color: whitesmoke;
+		height: 20px;
+		width: 80px;
+		}
+		
+	a {
+		color: whitesmoke;
+	}
+}

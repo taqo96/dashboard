@@ -1,0 +1,242 @@
+#loginpage {
+  position: relative;
+  top: 150px;
+  width: 300px;
+  height: 400px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 100px;
+  background-color: #af7357;
+}
+#loginpage h1 {
+  position: relative;
+  bottom: 90px;
+  font-family: "Open Sans", sans-serif;
+  color: whitesmoke;
+}
+#loginpage #user-log {
+  position: relative;
+  bottom: 80px;
+}
+#loginpage #usericon {
+  font-size: 100px;
+  color: whitesmoke;
+}
+#loginpage label {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  color: whitesmoke;
+}
+#loginpage input {
+  background: whitesmoke;
+  border-style: none;
+  height: 20px;
+  width: 200px;
+  margin-top: 10px;
+  color: black;
+}
+#loginpage input#btn {
+  background: black;
+  color: whitesmoke;
+  height: 20px;
+  width: 80px;
+}
+#loginpage a {
+  color: whitesmoke;
+}
+
+#navbar nav {
+  display: inline-block;
+  position: fixed;
+  background-color: #28314e;
+  float: right;
+  width: 100%;
+  height: 60px;
+}
+#navbar a {
+  position: relative;
+  left: 350px;
+  display: inline-block;
+  padding-top: 30px;
+  padding-left: 30px;
+  color: whitesmoke;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  line-height: 1;
+  text-transform: uppercase;
+}
+#navbar a:hover {
+  color: #437171;
+}
+
+#sidebar {
+  width: 287px;
+  height: 1000px;
+  background-color: gray;
+  position: fixed;
+}
+#sidebar #title {
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 50px;
+  color: whitesmoke;
+  position: relative;
+  bottom: 10px;
+}
+#sidebar #profile {
+  position: fixed;
+  margin-left: 40px;
+  top: 100px;
+}
+#sidebar #profile h1 {
+  font-family: 'Open Sans', sans-serif;
+  position: fixed;
+  top: 330px;
+  margin-left: 40px;
+  font-size: 20px;
+  color: whitesmoke;
+}
+#sidebar #profile edit {
+  position: relative;
+  right: 50px;
+  background: whitesmoke;
+}
+#sidebar #mini-menu {
+  position: fixed;
+  margin-bottom: 60px;
+  text-decoration: none;
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+}
+#sidebar #mini-menu li {
+  list-style-type: none;
+  padding-bottom: 10px;
+  position: relative;
+  bottom: 40px;
+}
+#sidebar #mini-menu a {
+  text-decoration: none;
+  color: whitesmoke;
+  position: relative;
+  top: 350px;
+  left: 80px;
+}
+#sidebar #mini-menu a:hover {
+  color: #437171;
+}
+#sidebar #mini-menu #swapBtn {
+  position: relative;
+  right: 5px;
+  background: black;
+  color: whitesmoke;
+  border-style: none;
+  width: 100px;
+  height: 25px;
+}
+#sidebar #mini-menu #logout {
+  background: black;
+  color: whitesmoke;
+  border-style: none;
+  width: 100px;
+  height: 20px;
+  position: relative;
+  top: 30px;
+  right: 110px;
+}
+
+#posts {
+  margin-left: 300px;
+  position: fixed;
+  box-sizing: border-box;
+}
+#posts h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  position: relative;
+  padding: 10px;
+  top: 60px;
+  right: 241px;
+}
+#posts h3 {
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+  top: 40px;
+  right: 230px;
+  color: gray;
+}
+#posts h3:hover {
+  color: black;
+}
+#posts #content img {
+  background-color: whitesmoke;
+  display: inline-block;
+  padding: 20px 40px;
+  position: relative;
+  right: 150px;
+  top: 40px;
+  width: 200px;
+  height: 250px;
+}
+
+#stats h1 {
+  font-family: "Open Sans", sans-serif;
+  color: gray;
+}
+
+#stats {
+  position: absolute;
+  top: 70px;
+  margin-left: 500px;
+  width: 700px;
+  height: 750px;
+}
+
+body, html {
+  margin: 0;
+  background: #ededed;
+}
+
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  #navbar {
+    width: 75%;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 640px) {
+  #navbar {
+    position: static;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  #posts {
+    width: 75%;
+    left: 25%;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 640px) {
+  #posts {
+    position: static;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  #sidebar {
+    width: 25%;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 640px) {
+  #sidebar {
+    position: static;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  #mini-menu {
+    font-size: 12pt;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 640px) {
+  #mini-menu {
+    font-size: 10pt;
+  }
+}

@@ -1,0 +1,70 @@
+//doc for sass
+
+@import "partials/_variables-two.scss";
+@import "partials/_login.scss";
+@import "partials/_dashboard.scss";
+@import "partials/_sidebar.scss";
+@import "partials/_posts.scss";
+@import "partials/_chart.scss";
+
+
+
+body, html {
+	margin: 0;	
+	background: #ededed;
+
+	
+}
+
+
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  #navbar {
+    width: 75%;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 640px) {
+  #navbar {
+    position: static;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  #posts {
+    width: 75%;
+    left: 25%;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 640px) {
+  #posts {
+    position: static;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  #sidebar {
+    width: 25%;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 640px) {
+  #sidebar {
+    position: static;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  #mini-menu {
+    font-size: 12pt;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 640px) {
+  #mini-menu {
+    font-size: 10pt;
+  }
+}

@@ -1,0 +1,54 @@
+//doc for posts on dashboard
+
+
+#posts {
+	
+		margin-left: 300px;
+		position: fixed;
+		box-sizing: border-box;
+		
+		
+
+
+		h1 {
+		
+		font-family: $hfont;
+		font-size: 30px;
+		position: relative;
+		padding: 10px;
+		top: 60px;
+		right: 241px;
+		}
+	
+	h3 {
+		font-family: $hfont;
+		position: relative;
+		top: 40px;
+		right: 230px;
+		color: $sidebar-color;
+	}
+	
+	h3:hover {
+		color: $navcolor;
+	}
+	
+	
+	
+	#content img {
+		background-color: whitesmoke;
+		display: inline-block;
+		padding: 20px 40px;
+		position: relative;
+		right: 150px;
+		top: 40px;
+		width: 200px;
+		height: 250px;
+		
+	}
+	
+	
+	
+	
+	
+}
+

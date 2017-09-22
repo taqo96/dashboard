@@ -1,0 +1,9 @@
+#navbar nav {
+  display: inline-block;
+  background-color: grey;
+  width: 80%;
+  height: 50px;
+}
+#navbar nav a {
+  display: inline-block;
+}
